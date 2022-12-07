@@ -36,6 +36,9 @@ class App extends Component{
             });
         }
     }
+    /*
+        github 연동 확인
+    */
 }
 
 export default App;
