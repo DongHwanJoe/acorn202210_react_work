@@ -34,6 +34,7 @@ class App extends Component{
             });
         };
 
+        //데이터를 이용해서 UI를 만들기
         const newArray = menu.map((item)=>{
             return <label key={item.id}>
                 <input type="checkbox" value={item.name} onChange={(e) => {
